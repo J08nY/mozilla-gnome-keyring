@@ -1,11 +1,10 @@
 const Cc = Components.classes;
 const Ci = Components.interfaces;
 
-Components.utils.import("resource://gre/modules/XPCOMUtils.jsm");
-Components.utils.import("resource://gre/modules/Promise.jsm");
+ChromeUtils.import("resource://gre/modules/XPCOMUtils.jsm");
+ChromeUtils.import("resource://gre/modules/Promise.jsm");
 
-var keyring = {};
-Components.utils.import("chrome://gnome-keyring/content/gnome-keyring.js", keyring);
+var keyring = ChromeUtils.import("chrome://gnome-keyring/content/gnome-keyring.js");
 
 function GnomeKeyringLoginManagerStorage() {}
 GnomeKeyringLoginManagerStorage.prototype = {

@@ -1,4 +1,4 @@
-Components.utils.import("resource://gre/modules/ctypes.jsm");
+ChromeUtils.import("resource://gre/modules/ctypes.jsm");
 
 var EXPORTED_SYMBOLS = [ "Values", "itemGetAttributes", "itemGetInfo",
 	"itemDelete",  "itemCreate", "getItems", "getItemIDs", "getNames",

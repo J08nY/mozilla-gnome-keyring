@@ -1,8 +1,7 @@
 const Cc = Components.classes;
 const Ci = Components.interfaces;
 
-var keyring = {};
-Components.utils.import("chrome://gnome-keyring/content/gnome-keyring.js", keyring);
+var keyring = ChromeUtils.import("chrome://gnome-keyring/content/gnome-keyring.js");
 
 var GnomeKeyringOptions = {
 	prefBranch: "extensions.gnome-keyring.",
