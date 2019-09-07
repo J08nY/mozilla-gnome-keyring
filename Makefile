@@ -27,7 +27,7 @@ clean:
 	@echo "Cleanup is done."
 
 # The sources for the XPI file.
-xpi_built := install.rdf \
+xpi_built := manifest.json \
              chrome.manifest \
              $(wildcard chrome/skin/hicolor/*.*) \
              $(wildcard components/*.*) \
