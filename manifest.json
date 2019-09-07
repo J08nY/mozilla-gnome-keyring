@@ -8,7 +8,7 @@
 	},
 	"name": "GNOME Keyring integration",
 	"description": "Store passwords and form logins in GNOME Keyring. Set keyring name in \"extensions.gnome-keyring.keyringName\" preference (about:config).",
-	"version": 0.13,
+	"version": 1.00,
 	"icons": {
 		"48": "skin/seahorse.svg",
 		"96": "skin/seahorse.svg"
